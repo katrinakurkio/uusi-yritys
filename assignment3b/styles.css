@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+}
+.white {
+    color: white;
+}
+h1 {
+    font-size: 20px;
+}
+p {
+    font-size: 12px;
+}
+.div {
+    border-style: dotted;
+    border-width: 2px;
+    width: 100px;
+    height: 100px;
+    color: white;
+}
+ol {
+    list-style-type:upper-latin;
+}
+ul {
+    list-style-type: square;
+}
