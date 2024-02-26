@@ -27,7 +27,7 @@
 
 body {
     font-family: Actor;
-    background-color: #775240;
+    background-color: var(--secondary-color);
 }
 
 .container {
@@ -67,6 +67,7 @@ body {
 
 .main-nav a:hover {
     background-color: var(--secondary-color);
+    border-radius: 10px;
     color: var(--primary-color);
 }
 
@@ -78,15 +79,12 @@ body {
     object-fit: cover;
 }
 
-.section {
-    height: 85vh;
-    color: var(--secondary-color);
-}
 
 .home-section {
     padding-top: 25vh;
     padding-left: 15vh;
-   
+    height: 85vh;
+    color: var(--secondary-color);
 }
 
 .home-section h2{
@@ -111,15 +109,97 @@ body {
 .home-section button {
     border: none; 
     box-shadow: 0 10px 20px 0 var(--primary-color,0.05);
-    background: var(--secondary-color);
+    background: var(--secondary-color,);
     padding: 1rem;
     cursor: pointer;
     margin-left: 10vh;
     color: var(--primary-color);
+    border-radius: 10px;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-weight: bold;
 }
 
 .home-section button:hover {
     background-color: var(--primary-color);
     color: var(--secondary-color);
+}
+
+.dogs-container {
+    min-height: 100vh;
+    width: auto;
+    padding-top: 5vh;
+
     
+}
+
+.dogs-description {
+    color: var(--primary-color);
+    padding-left: 12vh;
+    padding-bottom: 10px;
+    border-bottom:var(--primary-color) 2px solid;
+    margin: 0px 100px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    justify-items: center;
+    margin: 20px 100px;   
+  
+}
+
+.gallery figure  {
+    margin: 5px;
+    border: var(--primary-color) solid 2px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.gallery img{
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.gallery figcaption {
+    text-align: center;
+    color: var(--primary-color);
+    font-weight: bold;
+    padding: .5rem;
+    letter-spacing: 1px;
+}
+
+.dogs-description h2 {
+    margin-bottom: 10px;
+    letter-spacing: 4px;
+}
+
+.gallery-btn {
+    border: 2px solid var(--primary-color); 
+    text-align: center;
+    padding: 1.5rem;
+    background-color:var(--secondary-color); 
+    color: var(--primary-color);
+    align-items: center;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.gallery-btn:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: var(--primary-color) 2px solid;
+    font-size: 1rem;
+}
+
+
+.button {
+    text-align: center;
+    padding: 20px;
 }
