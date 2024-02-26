@@ -1,15 +1,18 @@
 header, footer {
-    background-color: blue;
-    color: white;
+    background-color: #333;
+    color: rgba(255, 255, 255, 0.8);
     padding: 1em;
     text-align: center;
     font-size: 30px;
     font-weight: bold;
     clear: left;
 }
+body {
+    background-color: gainsboro;
+}
 
 nav {
-    background-color: gray;
+    background-color: rgb(176, 218, 218);
     padding: 1em;
 }
 
@@ -20,4 +23,43 @@ nav {
 .wrapper div {
     flex: 1;
     text-align: center; 
+}
+
+.headers {
+    text-align: center;
+    color: #333;
+}
+h1 {
+    border: 1px solid gray;   
+}
+
+h2 {
+    border: 2px dotted red;
+}
+
+p {
+    background-color: black;
+    color: white;
+    padding: 1em;
+    border-radius: 0.5em;
+    margin: 1em;
+}
+
+.images {
+    margin: 1em;
+    border-radius: 0.5em;
+    float: left;
+    flex-wrap: wrap;
+}
+
+.img-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.central {
+    text-align: center;
+    border: 1px solid black;
+    background-color: white;
 }

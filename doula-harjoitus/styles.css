@@ -1,0 +1,190 @@
+@font-face {
+    font-family: Marcellus;
+    src: url(./fonts/Marcellus-Regular.ttf);
+}
+
+@font-face {
+    font-family: IstokReg;
+    src: url(./fonts/Istok_Web/IstokWeb-Regular.ttf);
+}
+
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: IstokReg;
+}
+
+body {
+    background-color: #fff7eb;
+
+}
+
+.main-header{
+    background-color: #E8D3B6;
+
+}
+
+
+.main-logo {
+    width: 12rem;
+    margin: 2rem;
+
+    padding: 1rem;
+    color: #6d533a;
+    
+}
+
+.main-logo:hover {
+    background-color: #f6e8d0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 900px;
+    line-height: 1.7;
+    height: 100vh;
+}
+ .main-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+ }
+
+.main-header.container ul {
+    text-align: end;
+    flex-grow: 1;
+}
+
+.nav{
+    padding: 1rem;
+}
+
+.nav li{
+    display: inline;
+    list-style: none;    
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+.nav a{
+    text-decoration: none;
+    color: rgb(255, 249, 249);
+    font-size: 0.8rem;
+    padding: 0.5rem;
+}
+.nav a:hover {
+    background-color: #f6e8d0;
+}
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 0rem 0rem 2rem;
+
+}
+
+.hero-container img {
+    float: right;
+    width: 60%;
+
+}
+
+.container h1 {
+    font-family: Marcellus;
+    padding-top: none;
+}
+
+.hero-section {
+    text-align: left;
+    padding-top: 10rem;
+    padding-right: 3rem;
+    margin-right: 1rem;
+    color: #6d533a;
+}
+
+.section button {
+    border: none;
+    padding: 0.6rem 2rem;
+    margin-top: 1rem;
+    background-color: #E8D3B6;
+    font-family: Marcellus;
+    font-weight: bold;
+    color: rgb(255, 249, 249);
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.section button:hover{
+    background-color: #f6e8d0;
+}
+
+.hero-section h3 {
+    font-size: smaller;
+    margin-bottom: none;
+    padding-bottom: none;
+    margin-left: 5px;
+}
+
+.mission-container {
+    background-image: url(img/pregnant-2635034_1280.jpg);
+    background-size:cover;
+    display: flex;
+}
+
+.mission-section {
+    color:rgb(255, 249, 249);
+    text-align: left;
+    padding: 10rem 5rem 5rem 5rem;
+    text-shadow: 1px 1px 1px #6d533a;
+}
+
+.mission-section h1{
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+.mission-section p {
+    margin-bottom: 2rem;
+    text-align: end;
+    
+}
+
+.mission-section button {
+    float: right;
+
+    text-shadow: none;
+
+}
+
+.services-container ul {
+    list-style: none;
+}
+
+.services-container li {
+    margin-top: 1rem;
+}
+
+.services-container img {
+    float: right;
+    width: 50%;
+}
+
+.services-container {
+    display: flex;
+    justify-content:space-between;
+    text-align: center;
+    align-items: center;
+    color: #6d533a;
+}
+
+.services-section{
+    margin: 0rem 6rem;
+    padding: 1rem 3rem;
+}
+
