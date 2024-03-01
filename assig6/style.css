@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: cornflowerblue;
+    color: white;
+    height: 100vh;
+}
+
+
+.header {
+    text-align: center;
+    font-size: large;
+    padding: 10px;
+    border-bottom: 1px solid white;
+    height: 10vh;
+}
+
+.main-nav{
+    height: 5vh;
+    background-color: rgb(168, 189, 230);
+}
+
+.main-nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: center;
+    height: 5vh;
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    
+}
+
+.main-nav a:hover {
+    color: cornflowerblue;
+}
+
+.description h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.description p{
+    font-size: 12px;
+}
+
+.description {
+    background-color: rgb(209, 224, 250);
+    text-align: center;
+    padding: 10px;
+    height: 25vh;
+    width: 85%;
+}
+
+.lists {
+    background-color: rgb(209, 224, 250);
+    color: cornflowerblue;
+    width: 90%;
+    height: 50vh;
+    margin: 5px auto;
+    border: 4px dotted white;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.lists ol {
+    list-style: upper-latin;
+    padding: 10px 30% ;
+    text-align: center;
+}
+
+.aside ul {
+    list-style: square;
+    padding: 10px;
+}
+
+.aside {
+    float: right;
+    background-color: white;
+    color:cornflowerblue;
+    width: 15%;
+    padding: 10px;
+    height: 25vh;
+}
+
+.section {
+    background-color: rgb(209, 224, 250);
+    color: cornflowerblue;
+    padding: 5px;
+    text-align: center;
+    height: 30vh;
+}
+
+.section h2 {
+    border: 1px solid white;
+    width: auto;
+    padding: 10px;
+}
+
+.section p {
+    background-color: rgb(235, 242, 255);
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.images {
+    text-align: center;
+    display: flex;
+    border-bottom: 1px solid white;
+    justify-content: center;
+    height: 45vh;
+
+}
+
+.images img {
+    padding: 10px;
+    text-align: center;
+
+
+}
+
+.images figure {
+    background-color: rgb(185, 208, 255);
+}
+
+.images figure img {
+    height: 90%
+}
+
+
+.side-nav {
+    padding: 10px 10px;
+    float: left;
+    background-color: white;
+    color: cornflowerblue;
+    height: 75vh;
+}
+
+.side-nav h4 {
+    font-size: 20px;
+}
+
+.side-nav ul {
+    list-style: none;
+    line-height: 2rem;
+}
+
+.side-nav a {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+.social-links {
+    padding: 10px;
+    height: 75vh;
+}
+
+.social-links h2 {
+    margin-left: 5rem;
+}
+
+.social-links img {
+    width:25vh;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    height: 10vh;
+    padding: 10px;
+    background-color: rgb(168, 189, 230);
+}
+
+@media screen and (max-width: 850px) {
+    .section {
+        height: auto;
+    }
+    
+    .images {
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .images img {
+        width: 60%;
+    }
+}
+

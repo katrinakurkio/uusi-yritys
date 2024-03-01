@@ -67,6 +67,7 @@ body {
 
 .main-nav a:hover {
     background-color: var(--secondary-color);
+    opacity: 0.5;
     border-radius: 10px;
     color: var(--primary-color);
 }
@@ -108,8 +109,8 @@ body {
 
 .home-section button {
     border: none; 
-    box-shadow: 0 10px 20px 0 var(--primary-color,0.05);
-    background: var(--secondary-color,);
+    box-shadow: 0 10px 20px 0 var(--primary-color,);
+    background: rgb(245, 235, 235, 0.8);
     padding: 1rem;
     cursor: pointer;
     margin-left: 10vh;
@@ -123,6 +124,7 @@ body {
 .home-section button:hover {
     background-color: var(--primary-color);
     color: var(--secondary-color);
+    opacity:0.6;
 }
 
 .dogs-container {
@@ -135,10 +137,10 @@ body {
 
 .dogs-description {
     color: var(--primary-color);
-    padding-left: 12vh;
     padding-bottom: 10px;
     border-bottom:var(--primary-color) 2px solid;
-    margin: 0px 100px;
+    margin: auto;
+    text-align: center;
 }
 
 .gallery {
@@ -146,7 +148,7 @@ body {
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     justify-items: center;
-    margin: 20px 100px;   
+    margin: auto;   
   
 }
 
@@ -154,7 +156,7 @@ body {
     margin: 5px;
     border: var(--primary-color) solid 2px;
     padding: 5px;
-    background-color: white;
+    background-color: rgba(255,255,255,0.8);
     border-radius: 10px;
 }
 
@@ -181,7 +183,7 @@ body {
     border: 2px solid var(--primary-color); 
     text-align: center;
     padding: 1.5rem;
-    background-color:var(--secondary-color); 
+    background-color: rgba(255,255,255,0.8); 
     color: var(--primary-color);
     align-items: center;
     font-size: 1rem;
@@ -189,6 +191,7 @@ body {
     border-radius: 10px;
     cursor: pointer;
     font-weight: bold;
+    opacity: 0.8;
 }
 
 .gallery-btn:hover {
@@ -196,10 +199,49 @@ body {
     color: var(--secondary-color);
     border: var(--primary-color) 2px solid;
     font-size: 1rem;
+    opacity: .8;
 }
 
 
 .button {
     text-align: center;
     padding: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    .gallery {
+        width: 50%;
+        display: block;
+    }
+    .gallery img {
+        width: 100%;
+    }
+
+    .home-section {
+   
+        padding: 0;
+        width: 90vh;
+        margin: auto;
+    }
+
+} 
+
+@media screen and (max-width: 580px) {
+    
+    .home-section {
+        display: block;
+        font-size: smaller;
+        width: 80vh;
+        margin: auto;
+        
+    }
+
+    .home-section h2 p {
+        font-size: smaller;
+        line-height: 1px;
+        width: 80%;
+        padding-right: 0;
+        
+    }
+
 }
