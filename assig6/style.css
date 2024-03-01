@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* body-elementin korkeus asetetaan olemaan näytön korkeus 100vh(vertical height)*/
+/* taustaväri ja tekstin ensisijainen väri valitaan alla*/
 
 body {
     background-color: cornflowerblue;
@@ -10,6 +12,7 @@ body {
     height: 100vh;
 }
 
+/* jokaisen sivun yläreunassa oleva header, jossa h1-elementti */
 
 .header {
     text-align: center;
@@ -18,6 +21,8 @@ body {
     border-bottom: 1px solid white;
     height: 10vh;
 }
+
+/* jokaisen sivun header-div:in alla oleva main-nav, jossa linkit kaikille sivuille, vaakatasoon */
 
 .main-nav{
     height: 5vh;
@@ -35,13 +40,16 @@ body {
 .main-nav a {
     color: white;
     text-decoration: none;
-    align-items: center;
-    
+
 }
+
+/* kun kursori on valikon linkkien päällä, muuttuu tekstin väri*/
 
 .main-nav a:hover {
     color: cornflowerblue;
 }
+
+/* seuraavaksi muotoillaan ensimmäisen sivun h2 ja p-elementit sekä description.div:in koko ja väri*/
 
 .description h2 {
     font-size: 20px;
@@ -59,6 +67,8 @@ body {
     height: 25vh;
     width: 85%;
 }
+
+/* vaihdetaan ol ja ul listojen listatyyppiä ja vaihdetaan väriä sekä div:in koko ja muoto*/
 
 .lists {
     background-color: rgb(209, 224, 250);
@@ -79,10 +89,7 @@ body {
     text-align: center;
 }
 
-.aside ul {
-    list-style: square;
-    padding: 10px;
-}
+/* halutaan aside-div lists-div:in viereen */
 
 .aside {
     float: right;
@@ -92,6 +99,13 @@ body {
     padding: 10px;
     height: 25vh;
 }
+
+.aside ul {
+    list-style: square;
+    padding: 10px;
+}
+
+/* muokataan toisen sivun divin koko ja väri */
 
 .section {
     background-color: rgb(209, 224, 250);
@@ -113,6 +127,8 @@ body {
     border-radius: 10px;
 
 }
+
+/* muokataan toisen sivun kuvien koko ja sijanti sivulla*/
 
 .images {
     text-align: center;
@@ -138,6 +154,8 @@ body {
     height: 90%
 }
 
+/* muokataan kolmannen sivun side-nav.div koko ja ulkomuoto sekä sijainti vasemmalle 
+social-links.div viereen*/
 
 .side-nav {
     padding: 10px 10px;
@@ -161,6 +179,8 @@ body {
     color: cornflowerblue;
 }
 
+/*social-links.div koko muutetaan mukautumaan näytön korkeuteen*/
+
 .social-links {
     padding: 10px;
     height: 75vh;
@@ -175,12 +195,16 @@ body {
     padding: 10px;
 }
 
+/* kaikilla sivuilla oleva footer-elementti muokataan olemaan aina sivun alareunassa, teksti kekskellä*/
+
 footer {
     text-align: center;
     height: 10vh;
     padding: 10px;
     background-color: rgb(168, 189, 230);
 }
+
+/* mikäli näytön koko on pienempi kuin 850px, muokataa elementtien leveyttä ja sijaintia sivulla, sekä koko sivun korkeutta, niin että koko sisältö mahtuu selkeästi näkyville */
 
 @media screen and (max-width: 850px) {
     .section {
