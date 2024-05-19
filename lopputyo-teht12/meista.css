@@ -1,0 +1,15 @@
+.meista-hero {
+    background-image: url(img/money-2724248_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+    padding: 30vh 10% 30vh 0;
+}
+.meista-header {
+    background-color:#738f4d;
+}
+
+.meista-div {
+    background-color: #738f4d60;
+    padding: 4rem 1rem;
+}

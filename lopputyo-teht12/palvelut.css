@@ -1,0 +1,25 @@
+.palvelut-header {
+    background-color: #738f4d;
+}
+
+.palvelut-hero {
+    background-image: url(img/money-2724248_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+    padding: 30vh 10% 30vh 0;
+}
+
+.palvelut-div {
+    padding-right: 10vw;
+    background-color: #738f4d60;
+    padding-left: 10%;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    height: 50vh;
+}
+
+.palvelut-div h1 {
+    font-size: 3.5rem;
+
+}

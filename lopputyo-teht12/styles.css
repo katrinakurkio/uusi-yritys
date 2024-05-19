@@ -1,0 +1,118 @@
+@font-face {
+    font-family: Spartan;
+    src: url(fonts/League_Spartan/LeagueSpartan-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: PoppinsReg;
+    src: url(fonts/Poppins/Poppins-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: PoppinsReg;
+    color: white;
+}
+
+
+
+a {
+    text-decoration: none;
+    color:white;
+}
+
+h2 {
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+
+a:hover {
+    color:#774d34;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+.chosen {
+    color:#774d34;
+    font-weight: bold;
+}
+
+.index-container {
+    height: 100%;
+    background-color: #738f4d;
+}
+
+.nav-bar {
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    border-bottom: 1px solid transparent;
+}
+
+
+
+.nav-bar h1 {
+    padding-left: 1rem;
+    font-family: Spartan;
+    font-size: 3rem;
+    color: white;
+    letter-spacing: -4px;
+    font-weight: bolder;
+    margin-top: .5rem;
+}
+
+.nav-bar h1:hover {
+    color: #774d34;  
+}
+
+.nav-list {
+    display: flex;
+    margin: 0rem 1.2rem;
+}
+
+.nav-list li {
+    margin: 1rem 2rem;
+    padding: 1rem;
+    border: 1px solid transparent;
+}
+
+.nav-list li:hover {
+    border-bottom: 1px #f2ebe5 solid;
+}
+
+.btn {
+    padding: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #774d34;
+    padding: 1rem 2rem;
+    border: none;
+    background-color: #f2ebe5;
+}
+
+.btn:hover {
+    background-color:#774d34;
+    color: #f2ebe5;
+}
+
+footer {
+    background-color: #774d34;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    border-top: solid 1px #f2ebe5;
+}
+

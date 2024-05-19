@@ -1,0 +1,149 @@
+.hero-section h2{
+    
+    margin-left: 10%;
+    font-size: 3.5rem;
+    padding: 1rem 0.5rem 0.5rem 0rem;
+    line-height: 4rem;
+    letter-spacing: normal;
+    font-weight: bold;
+}
+
+.hero-section p {
+    color: #f2ebe5;
+    margin-left: 10%;
+    padding: 1rem .5rem 0rem 0rem;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    padding: 2rem 0rem;
+}
+
+.hero-text{
+    max-width: 50%;
+    margin: auto;
+}
+
+.btn-div {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    padding: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+    padding: 1rem 2rem;
+    border: none;
+    background-color: #f2ebe5;
+}
+
+.btn:hover {
+    background-color:#774d34;
+    color: #f2ebe5;
+}
+
+.hero-btn {
+    margin-top: 1rem;
+}
+
+.hero-img img {
+    float: right;
+    max-width: 100%;
+}
+
+.palvelut-container {
+    padding: 20vh 10%;
+    height: 70%;
+    background-color:#738f4d;
+}
+
+.palvelut h2 {
+    font-size: 3rem;
+
+}
+
+.palvelut p {
+    color: #f2ebe5;
+    font-size: 1.7rem;
+}
+
+.palvelut-btn {
+    margin: 2rem 0rem;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+.palvelut-btn:hover {
+    background-color: #f2ebe5;
+    color: #774d34;
+}
+
+.header-div {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.header-div h2 {
+    font-size: 3rem;
+    margin: 3rem;
+    color: #774d34;
+}
+.asiakas-container {
+    background-color: #f2ebe5;
+    height: 80%;
+}
+
+.asiakas-div {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3rem;
+}
+
+.form-container {
+    background-color:#774d34;
+    padding: 10%;
+}
+
+.form-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.form-control {
+    padding: 0.6rem;
+    margin: .5rem 0rem;
+}
+
+.form {
+    width: 20vw;
+    margin-right: 5vw;
+}
+
+.btn-form {
+    padding: .5rem 1rem;
+}
+
+.btn-form:hover {
+    background-color: #738f4d;
+}
+
+.col{
+    width: 20vw;
+    text-align: center;
+}
+
+.asiakas-div h4{
+    color: #774d34;
+}
+
+.asiakas-div p {
+    color: #774d34;
+}
+

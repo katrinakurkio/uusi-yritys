@@ -1,0 +1,25 @@
+.tyopaikat-section {
+    background-color: #738f4d;
+    height: 100vh;
+}
+
+.tyopaikat-img img {
+    float: left;
+    max-height: 80vh;
+    
+}
+
+.tyopaikat-div {
+    position: absolute;
+    bottom: 30%;
+    right: 0;
+    padding-right: 10%;
+    padding-left: 1rem;
+    width: 60vw;
+    text-align: right;
+    background-color: #738f4d60;
+}
+
+.right {
+    align-items: end;
+}
